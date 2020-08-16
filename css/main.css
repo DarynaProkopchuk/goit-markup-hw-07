@@ -42,6 +42,14 @@ ul {
 
 .title {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 h2.title {
@@ -332,15 +340,6 @@ h4 {
   overflow: hidden;
 }
 
-.title {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
 .body {
   font-family: "Roboto", sans-serif, sans-serif;
   font-style: normal;
@@ -611,7 +610,7 @@ h4 {
 }
 
 .team-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -622,7 +621,7 @@ h4 {
 }
 
 .team-list-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -751,10 +750,10 @@ h4 {
   fill: #2196f3;
 }
 
+/*
 .client-h2 {
-  margin-bottom: 50px;
-}
-
+	margin-bottom: 50px;
+}*/
 .client-item-svg {
   fill: #afb1b8;
   align-items: center;

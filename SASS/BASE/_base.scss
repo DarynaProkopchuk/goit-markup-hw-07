@@ -28,6 +28,14 @@ ul {
 }
 .title {
 	margin: 0;
+	font-family: $main-font;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: $primary-text-color;
 }
 h2.title {
 	margin-bottom: 50px;
