@@ -180,7 +180,7 @@ h4 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: #000;
   border-radius: 4px;
 }
 
@@ -192,10 +192,8 @@ h4 {
   color: #2196f3;
 }
 
-.modal-form-message .modal-form-input:focus,
-.modal-form-message .modal-form-message:focus,
-.modal-form-message .modal-form-input:not(:placeholder-shown),
-.modal-form-message .modal-form-message:not(:placeholder-shown) {
+.modal-form-message .modal-form-input:focus, .modal-form-message:focus,
+.modal-form-message .modal-form-input:not(:placeholder-shown), .modal-form-message:not(:placeholder-shown) {
   outline: none;
   border-color: #2196f3;
 }
