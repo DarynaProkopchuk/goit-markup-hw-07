@@ -428,7 +428,6 @@ h4 {
 .address-nav-list-link {
   display: inline-block;
   align-items: center;
-  /*transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); lishnee?*/
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -442,12 +441,18 @@ h4 {
   color: #2196f3;
 }
 
-.address-nav-list-link:hover,
+.address-nav-list-link:hover .address-nav-mailto-svg {
+  fill: #2196f3;
+}
+
+.address-nav-list-link:hover .address-nav-telefon-svg {
+  fill: #2196f3;
+}
+
 .address-nav-list-link:focus .address-nav-mailto-svg {
   fill: #2196f3;
 }
 
-.address-nav-list-link:hover,
 .address-nav-list-link:focus .address-nav-telefon-svg {
   fill: #2196f3;
 }
@@ -473,7 +478,7 @@ h4 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../goit-markup-hw-07/imeges/Headerimg.svg);
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../imeges/Headerimg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
