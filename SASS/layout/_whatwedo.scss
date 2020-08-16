@@ -1,8 +1,9 @@
 .whatwedo-list {
 	display: flex;
 	justify-content: center;
+	list-style: none;
+	text-align: center;
 }
-
 .whatwedo-section {
 	margin-bottom: 94px;
 	padding-top: 47px;
@@ -11,6 +12,10 @@
 .whatwedo-list-item {
 	position: relative;
 	width: 370px;
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 .whatwedo-list-title {
 	position: absolute;
@@ -21,20 +26,11 @@
 	padding-top: 27px;
 	padding-bottom: 27px;
 	margin: 0;
-}
-.whatwedo-list {
-	list-style: none;
-	text-align: center;
-}
-.whatwedo-list-item:not(:last-child) {
-	margin-right: 30px;
-}
-.whatwedo-list-title {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	text-align: center;
 	text-transform: uppercase;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }

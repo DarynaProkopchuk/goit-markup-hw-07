@@ -25,26 +25,26 @@
 }
 /*ne otpravila v css*/
 .logo {
-	font-family: var(--secondary-font);
+	font-family: $secondary-font;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	margin-right: 85px;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .logo-accent {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 .body {
-	font-family: var(--main-font), sans-serif;
+	font-family: $main-font, sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.2;
-	color: var(--primary-text-color);
-	background-color: var(--primary-white-color);
+	color: $primary-text-color;
+	background-color: $primary-white-color;
 	text-decoration: none;
 	letter-spacing: 0.03em;
 }
@@ -59,7 +59,7 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	list-style: none;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .site-nav-list-item {
 	position: relative;
@@ -70,15 +70,15 @@
 	margin-right: 55px;
 }
 .site-nav-list-link {
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-list-link:hover {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 .address-nav-list-item .site-nav-list-link:focus {
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 .address-nav-list {
 	display: flex;
@@ -93,10 +93,10 @@
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-nav-list-link:hover {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 .address-nav-list-link:focus {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 
 .address-nav-telefon-svg {
@@ -114,16 +114,16 @@
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-nav-list-link:hover .address-nav-mailto-svg {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .address-nav-list-link:focus .address-nav-mailto-svg {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .address-nav-list-link:hover .address-nav-telefon-svg {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .address-nav-list-link:focus .address-nav-telefon-svg {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .address-nav-telefon-svg {
 	margin-right: 10px;
@@ -132,7 +132,7 @@
 	margin-right: 10px;
 }
 .current {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 .address-nav-list-link {
 	font-style: normal;
@@ -140,7 +140,7 @@
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--text-color);
+	color: $text-color;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-nav-list-link link.title {
@@ -149,7 +149,7 @@
 	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .site-nav-list-item.studio::after {
 	position: absolute;
@@ -159,7 +159,7 @@
 	content: "";
 	width: 100%;
 	height: 4px;
-	background: var(--accent-color);
+	background: $accent-color;
 	border-radius: 2px;
 }
 .site-nav-list-item.portfolio::after {
@@ -170,14 +170,14 @@
 	content: "";
 	width: 100%;
 	height: 4px;
-	background: var(--accent-color);
+	background: $accent-color;
 	border-radius: 2px;
 }
 /*Hero*/
 .hero {
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-color: var(--text-color);
+	background-color: $text-color;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -190,7 +190,7 @@
 }
 
 .hero-title {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
@@ -198,31 +198,31 @@
 	margin-bottom: 30px;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 
 .hero-button {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.86;
 	letter-spacing: 0.06em;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	border: 0;
 	padding: 10px 32px;
 }
 .title {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--title-text-color);
+	color: $title-text-color;
 }
 
 /*ABOUTUS*/
@@ -268,14 +268,14 @@
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .aboutus-text {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
-	color: var(--text-color);
+	color: $text-color;
 }
 
 /*What We do*/
@@ -317,7 +317,7 @@
 	line-height: 1.14;
 	text-align: center;
 	text-transform: uppercase;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 /*OURE TEAME*/
 
@@ -336,7 +336,7 @@
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .team-list-title {
 	font-family: Roboto;
@@ -348,7 +348,7 @@
 	text-align: center;
 	letter-spacing: 0.03em;
 
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .team-list-item {
 	width: 270px;
@@ -363,13 +363,13 @@
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
-	color: var(--text-color);
+	color: $text-color;
 }
 .team-list-social {
 	display: flex;
 	list-style: none;
 	text-decoration: none;
-	color: var(--social-list-color);
+	color: $social-list-color;
 	justify-content: center;
 }
 
@@ -386,10 +386,10 @@
 	margin-right: 32px;
 }
 .team-list-social-item:hover {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .team-list-social-item:focus {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 
 .social-link {
@@ -399,7 +399,7 @@
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-svg {
@@ -411,17 +411,17 @@
 .social-link:focus,
 .social-link:hover .social-link-svg,
 .social-link:focus .social-link-svg {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }
 
 .social-link:hover {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 }
 .social-link:hover .social-link-svg {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }
 .social-link:focus .social-link-svg {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }
 
 /*Uor Clients*/
@@ -452,8 +452,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*border: var(--text-color);*/
-	background: var(--primary-white-color);
+	/*border: $text-color;*/
+	background: $primary-white-color;
 	width: 170px;
 	height: 90px;
 	border: 1px solid #afb1b8;
@@ -477,23 +477,23 @@
 
 .section-client-list-link:hover,
 .section-client-list-link:focus {
-	border: 1px solid var(--accent-color);
+	border: 1px solid $accent-color;
 }
 /*
 .client-item:hover,
 .client-item:focus {
-	color: var(--accent-color);
+	color: $accent-color;
 }*/
 
 .section-client-list-link:hover .client-item-svg,
 .section-client-list-link:focus .client-item-svg {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 
 /*PORTFOLIO*/
 
 .filter {
-	font-size: var(--main-font);
+	font-size: $main-font;
 	text-decoration: none;
 	font-style: normal;
 	font-weight: 400;
@@ -510,12 +510,12 @@
 }
 
 .filter-list-button {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 	padding: 6px 22px;
 	border: none;
 	justify-content: center;
@@ -530,16 +530,16 @@
 	margin: 0;
 }
 .filter-list-item:focus .filter-list-button {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 .filter-list-button:hover {
 	background-color: #2196f3;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 .filter-project-desc {
 	padding-left: 24px;
@@ -564,22 +564,22 @@
 	border-radius: 4px;
 }
 .filter-title {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	margin: 0;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 .filter-project-list-text {
 	text-decoration: none;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
-	color: var(--text-color);
+	color: $text-color;
 	margin: 0;
 }
 .filter-project-list {
@@ -593,13 +593,13 @@
 }
 
 .filter-project-list-tehnokryak {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.56;
 	letter-spacing: 0.03em;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	background-color: rgba(33, 150, 243, 0.9);
 	margin: 0px;
 	width: 100%;
@@ -664,32 +664,32 @@
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .logo-footer {
-	font-family: var(--secondary-font);
+	font-family: $secondary-font;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 31px;
 	letter-spacing: 0.03em;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	margin-bottom: 20px;
 	margin-right: 0;
 }
 .logo-footer span {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 .logo-footer:focus {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 .adress-footer {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 .contacts-footer {
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -699,13 +699,13 @@
 }
 .footer-title {
 	display: block;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	margin-bottom: 20px;
 }
 .footer-adress {
@@ -740,21 +740,21 @@
 	display: flex;
 	width: 200px;
 	height: 50px;
-	background: var(--accent-color);
+	background: $accent-color;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	align-items: center;
 	padding-left: 29px;
 }
 .footer-subskribe-button-svg {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 	margin-left: 10px;
 	margin-bottom: 13px;
 	margin-top: 13px;
 }
 .footer-social-svg {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links {
@@ -769,10 +769,10 @@
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links:focus {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 }
 .social-links:hover {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 }
 /* MODAL WINDOW */
 .backdrop {
@@ -793,14 +793,14 @@
 	width: 528px;
 
 	padding: 40px;
-	background-color: var(--primary-white-color);
+	background-color: $primary-white-color;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 }
 
 .modal-form-title {
 	margin-bottom: 30px;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: 400;
 	font-weight: 700;
 	font-size: 20px;
@@ -837,7 +837,7 @@
 	display: block;
 	width: 100%;
 	height: 120px;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-size: 11px;
 	border: 1px solid rgba(157, 164, 189, 0.4);
 	background-color: transparent;
@@ -854,7 +854,7 @@
 	display: block;
 	width: 100%;
 	height: 40px;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-size: 11px;
 	background-color: transparent;
 	font-style: normal;
@@ -870,7 +870,7 @@
 }
 
 .modal-form-message:focus::placeholder {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 
 .modal-form-input:focus,
@@ -878,7 +878,7 @@
 .modal-form-input:not(:placeholder-shown),
 .modal-form-message:not(:placeholder-shown) {
 	outline: none;
-	border-color: var(--accent-color);
+	border-color: $accent-color;
 }
 
 .modal-form-label {
@@ -886,7 +886,7 @@
 	top: 30%;
 	left: 8%;
 	transform: translateY(-70%);
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -900,7 +900,7 @@
 .modal-form-input:focus + .modal-form-label,
 .modal-form-input:not(:placeholder-shown) + .modal-form-label {
 	transform: translate(-24px, -42px);
-	color: var(--accent-color);
+	color: $accent-color;
 }
 
 .modal-form-checkbox {
@@ -908,8 +908,8 @@
 	width: 1px;
 	height: 1px;
 	margin: -1px;
-	background: var(--primary-white-color);
-	border: 0.2px solid var(--primary-white-color);
+	background: $primary-white-color;
+	border: 0.2px solid $primary-white-color;
 	padding: 0;
 	clip: rect(0 0 0 0);
 	overflow: hidden;
@@ -926,15 +926,15 @@
 	display: inline-block;
 	/*width: 16px;*/
 	height: 17px;
-	background-color: var(--primary-white-color);
+	background-color: $primary-white-color;
 	margin-right: 7px;
-	border: solid 1px var(--primary-text-color);
+	border: solid 1px $primary-text-color;
 	border-radius: 2px;
 }
 
 .modal-form-option-span {
 	font-size: 12px;
-	font-family: var(--main-font);
+	font-family: $main-font;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -943,16 +943,16 @@
 	color: #757575;
 }
 .svg-form-checkbox {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }
 
 .modal-form-option-span a {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
-	background-color: var(--accent-color);
-	border: solid 1px var(--primary-white-color);
+	background-color: $accent-color;
+	border: solid 1px $primary-white-color;
 }
 
 .modal-form-btn {
@@ -963,16 +963,16 @@
 	margin-bottom: 40px;
 	margin-left: 124px;
 	cursor: pointer;
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	transition: background-color 250ms linear, color 250ms linear;
-	background: var(--accent-color);
+	background: $accent-color;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
 
 .modal-form-btn:hover,
 .modal-form-btn:focus {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 	color: #ffffff;
 }
 
@@ -993,7 +993,7 @@
 	align-items: center;
 	cursor: pointer;
 	transition: color 250ms linear;
-	background: var(--primary-white-color);
+	background: $primary-white-color;
 	margin: 0;
 	border: 1px solid rgba(163, 86, 86, 0.1);
 }
@@ -1005,7 +1005,7 @@
 
 .modal-close-btn:hover .svg-form-close-btn,
 .modal-close-btn:focus .svg-form-close-btn {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .svg-form {
 	fill: #000000;
@@ -1017,8 +1017,8 @@
 
 .modal-form-input:focus ~ .svg-form,
 .modal-form-input:hover ~ .svg-form {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
 .modal-form-checkbox:checked ~ .svg-form-checkbox {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }
